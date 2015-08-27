@@ -2,7 +2,8 @@
 
 (define collection 'multi)
 (define deps '("base"
-               "scribble-lib"))
+               "scribble-lib"
+               ("images-lib" #:version "1.2")))
 
 (define pkg-desc "Experimental libraries for contracts at definitions")
 
